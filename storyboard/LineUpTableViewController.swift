@@ -10,24 +10,24 @@ import UIKit
 import Foundation
 
 class LineUpTableViewController: UITableViewController {
-    let modelTM = TRModel()
+    let modelHR = HRModel()
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.modelTM.arrayList.count
-    }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
-        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.modelHR.arrayList.count
+    }
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
         
-        let communityName = self.modelTM.arrayList[indexPath.row]
+        let team = self.modelHR.arrayList[indexPath.row]
         
-        cell.textLabel?.text = communityName.CommunityName
+        cell.textLabel?.text = team.CommunityName
+        cell.detailTextLabel?.text = team.startPoint
         
         return cell
     }
 }
-

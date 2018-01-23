@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6C2D70F2016BFDE0022C7D8 /* firstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D70E2016BFDE0022C7D8 /* firstTableViewController.swift */; };
 		CE5664EE2015AEC400C10DB1 /* LineUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5664ED2015AEC400C10DB1 /* LineUpTableViewController.swift */; };
 		CE5664F02015AF7200C10DB1 /* TransportationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5664EF2015AF7200C10DB1 /* TransportationModel.swift */; };
 		CE7B53DD2011DA8C008499BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B53DC2011DA8C008499BE /* AppDelegate.swift */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6C2D70E2016BFDE0022C7D8 /* firstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTableViewController.swift; sourceTree = "<group>"; };
 		CE5664ED2015AEC400C10DB1 /* LineUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineUpTableViewController.swift; sourceTree = "<group>"; };
 		CE5664EF2015AF7200C10DB1 /* TransportationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransportationModel.swift; path = ../TransportationModel.swift; sourceTree = "<group>"; };
 		CE7B53D92011DA8C008499BE /* storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +176,7 @@
 				CE5664EF2015AF7200C10DB1 /* TransportationModel.swift */,
 				CE7B53DC2011DA8C008499BE /* AppDelegate.swift */,
 				CE7B53DE2011DA8C008499BE /* ViewController.swift */,
+				A6C2D70E2016BFDE0022C7D8 /* firstTableViewController.swift */,
 				CE5664ED2015AEC400C10DB1 /* LineUpTableViewController.swift */,
 				CE5664EC2015AE8E00C10DB1 /* image */,
 				CE7B53E02011DA8C008499BE /* Main.storyboard */,
@@ -284,7 +287,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE7B53D42011DA8C008499BE /* Build configuration list for PBXProject "storyboard" */;
+			buildConfigurationList = CE7B53D42011DA8C008499BE /* Build configuration list for PBXProject "교통알고싶숙" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -358,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7B53DF2011DA8C008499BE /* ViewController.swift in Sources */,
+				A6C2D70F2016BFDE0022C7D8 /* firstTableViewController.swift in Sources */,
 				CE5664F02015AF7200C10DB1 /* TransportationModel.swift in Sources */,
 				CE5664EE2015AEC400C10DB1 /* LineUpTableViewController.swift in Sources */,
 				CE7B53DD2011DA8C008499BE /* AppDelegate.swift in Sources */,
@@ -589,7 +593,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE7B53D42011DA8C008499BE /* Build configuration list for PBXProject "storyboard" */ = {
+		CE7B53D42011DA8C008499BE /* Build configuration list for PBXProject "교통알고싶숙" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE7B53FF2011DA8C008499BE /* Debug */,
